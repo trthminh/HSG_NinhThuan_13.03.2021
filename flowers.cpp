@@ -9,7 +9,7 @@ int main()
     ios_base::sync_with_stdio(false);
     cin.tie(0);cout.tie(0);
     freopen("flowers.inp", "r", stdin);
-    reopen("flowers.out", "w", stdout);
+    freopen("flowers.out", "w", stdout);
     cin >> n >> m;
     for (int i = 1; i <= m; ++i)
     {
